@@ -1,0 +1,163 @@
+@use "variables" as *;
+
+body {
+    background-color: $cor-fundo;
+    color: $cor-texto;
+}
+
+nav {
+    position: fixed;
+    left: 10px;
+    top: 14%;
+    width: 70px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: $cor-texto;
+}
+
+.menu a:hover {
+    color: $cor-hover;
+}
+
+.menu a span {
+    display: none;
+}
+
+.menu img {
+    width: 100%;
+}
+
+main {
+    padding-left: 90px;
+}
+
+.logo {
+    width: 70%;
+    margin-top: -13%;
+    margin-left: 10%;
+}
+
+.foto-perfil {
+    width: 50%;
+}
+
+.icone-rede {
+    width: 60%;
+}
+
+.footer {
+    background-color: $cor-footer;
+}
+
+@media (min-width: 768px) {
+    nav {
+        width: 90px;
+        left: 20px;
+    }
+
+    .menu {
+        gap: 40px;
+    }
+
+    main {
+        padding-left: 140px;
+    }
+
+    .logo {
+        width: 50%;
+        margin-top: -8%;
+        margin-left: 0;
+    }
+
+    .foto-perfil {
+        width: 35%;
+    }
+
+    .texto_perfil {
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+
+    .icone-rede {
+        width: 35%;
+    }
+}
+
+@media (min-width: 992px) {
+    nav {
+        position: static;
+        width: 100%;
+        margin-top: -15px;
+        margin-bottom: 80px;
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .menu-item {
+        width: auto;
+    }
+
+    .menu a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu a span {
+        display: inline;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .menu img {
+        width: 55px;
+    }
+
+    main {
+        padding-left: 0;
+    }
+
+    .logo {
+        width: 35%;
+        margin-top: -5%;
+        margin-left: 0;
+    }
+
+    .foto-perfil {
+        width: 20%;
+    }
+
+    .texto_perfil {
+        max-width: 1000px;
+        font-size: 1.8rem;
+    }
+
+    .redes_sociais {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes_sociais > div {
+        width: auto;
+        flex: 0 0 auto;
+        text-align: center;
+    }
+
+    .icone-rede {
+        width: 60px;
+    }
+}

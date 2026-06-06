@@ -12,84 +12,91 @@
 <body>
     <header>
         <div class="header text-center py-4">
-            <img class="img-fluid" style="width: 70%" src="imgs/logoassinatura.png" alt="Logo ou assinatura do proprietário do portfólio">
+            <img class="logo img-fluid" src="imgs/logoassinatura.png" alt="Logo ou assinatura do proprietário do portfólio">
         </div>
     </header>
 
     <nav>
-        <div class="nav">
-            <div class="inicio pb-4 mb-4">
+        <div class="menu">
+            <div class="menu-item">
                 <a href="index.html">
-                    <img style="width: 100%" src="imgs/home_color.png" alt="Icone home">
+                    <img src="imgs/home_color.png" alt="Ícone Home">
+                    <span>Início</span>
                 </a>
             </div>
-            <div class="skills pb-4 mb-4 pt-4 mt-4">
+
+            <div class="menu-item">
                 <a href="#">
-                    <img style="width: 100%" src="imgs/thunder.png" alt="Icone skills">
+                    <img src="imgs/thunder.png" alt="Ícone Skills">
+                    <span>Skills</span>
                 </a>
             </div>
-            <div class="projetos pb-4 mb-4 pt-4 mt-4">
+
+            <div class="menu-item">
                 <a href="projetos.html">
-                    <img style="width: 100%" src="imgs/briefcase.png" alt="Icone projetos">
+                    <img src="imgs/briefcase.png" alt="Ícone Projetos">
+                    <span>Projetos</span>
                 </a>
             </div>
-            <div class="contato pt-4 mt-4">
+
+            <div class="menu-item">
                 <a href="#">
-                    <img style="width: 100%" src="imgs/email.png" alt="Icone contato">
+                    <img src="imgs/email.png" alt="Ícone Contato">
+                    <span>Contato</span>
                 </a>
             </div>
         </div>
     </nav>
 
     <main>
-        <div class="main">
-            <section class="perfil">
-                <div class="foto_perfil text-center p-3 pb-4">
-                    <img style="width: 50%;" src="imgs/user.png" alt="Foto do perfil">
-                </div>
-                <div class="texto_perfil p-4 fs-3 text-center">
-                    <p>
-                        Olá, meu nome é Lucas Diego Czadotz.
-                        Sou estudante de Análise e Desenvolvimento de Sistemas no IFPR, cursando o 3º semestre,
-                        com muito interesse em tecnologias. Resido em União da Vitória, PR.
-                        Estou em constante aprendizado, buscando evoluir minhas habilidades e
-                        contribuir com soluções criativas e funcionais, com foco em construir
-                        uma carreira sólida na área de TI.
-                    </p>
-                </div>
-            </section>
+        <section class="perfil">
+            <div class="foto_perfil text-center p-3 pb-4">
+                <img class="foto-perfil" src="imgs/user.png" alt="Foto do perfil">
+            </div>
 
-            <section class="redes_sociais row p-2">
-                <div class="insta col-6 p-3 text-end">
-                    <a href="https://www.instagram.com/lucasczadotz?igsh=MWhxMDM4azl2YzVoeg==">
-                        <img style="width: 60%;" src="imgs/instagram.png" alt="Icone Instagram">
-                    </a>
-                </div>
-                <div class="github col-6 p-3 text-start">
-                    <a href="https://github.com/LucasCzadotz">
-                        <img style="width: 60%;" src="imgs/github.png" alt="Icone Github">
-                    </a>
-                </div>
-                <div class="linkedin col-6 p-3 text-end">
-                    <a href="https://www.linkedin.com/in/lucas-diego-czadotz">
-                        <img style="width: 60%;" src="imgs/linkedin.png" alt="Icone Linkedin">
-                    </a>
-                </div>
-                <div class="discord col-6 p-3 text-start">
-                    <a href="#">
-                        <img style="width: 60%;" src="imgs/discord.png" alt="Icone Discord">
-                    </a>
-                </div>
-            </section>
-        </div>
+            <div class="texto_perfil p-4 fs-3 text-center">
+                <p>
+                    Olá, meu nome é Lucas Diego Czadotz.
+                    Sou estudante de Análise e Desenvolvimento de Sistemas no IFPR, cursando o 3º semestre,
+                    com muito interesse em tecnologias. Resido em União da Vitória, PR.
+                    Estou em constante aprendizado, buscando evoluir minhas habilidades e
+                    contribuir com soluções criativas e funcionais, com foco em construir
+                    uma carreira sólida na área de TI.
+                </p>
+            </div>
+        </section>
+
+        <section class="redes_sociais row p-2">
+            <div class="col-6 p-3 text-end">
+                <a href="https://www.instagram.com/lucasczadotz?igsh=MWhxMDM4azl2YzVoeg==">
+                    <img class="icone-rede" src="imgs/instagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            <div class="col-6 p-3 text-start">
+                <a href="https://github.com/LucasCzadotz">
+                    <img class="icone-rede" src="imgs/github.png" alt="GitHub">
+                </a>
+            </div>
+
+            <div class="col-6 p-3 text-end">
+                <a href="https://www.linkedin.com/in/lucas-diego-czadotz">
+                    <img class="icone-rede" src="imgs/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+
+            <div class="col-6 p-3 text-start">
+                <a href="#">
+                    <img class="icone-rede" src="imgs/discord.png" alt="Discord">
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer bg-black text-white text-center fs-5 p-3 mt-4">
-            <div class="copyright">
-                <p>© 2026 Lucas Diego Czadotz.</p>
-                <p>Todos os direitos reservados.</p>
-            </div>
+            <p>© 2026 Lucas Diego Czadotz.</p>
+            <p>Todos os direitos reservados.</p>
         </div>
     </footer>
 

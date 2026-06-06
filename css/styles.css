@@ -1,93 +1,142 @@
+body {
+  background-color: white;
+  color: #212529;
+}
+
 nav {
-    position: fixed;
-    left: 10px;
-    top: 14%;
-    width: 70px;
+  position: fixed;
+  left: 10px;
+  top: 14%;
+  width: 70px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.menu a:hover {
+  color: #0b5ed7;
+}
+
+.menu a span {
+  display: none;
+}
+
+.menu img {
+  width: 100%;
 }
 
 main {
-    padding-left: 80px;
+  padding-left: 90px;
 }
 
-.header img {
-    margin-top: -13%;
-    margin-left: 10%;
+.logo {
+  width: 70%;
+  margin-top: -13%;
+  margin-left: 10%;
+}
+
+.foto-perfil {
+  width: 50%;
+}
+
+.icone-rede {
+  width: 60%;
+}
+
+.footer {
+  background-color: #000000;
 }
 
 @media (min-width: 768px) {
-    nav {
-        width: 90px;
-        left: 20px;
-    }
-
-    main {
-        padding-left: 130px;
-    }
-
-    .header img {
-        width: 50% !important;
-        margin-top: -8%;
-        margin-left: 0;
-    }
-
-    .foto_perfil img {
-        width: 35% !important;
-    }
-
-    .texto_perfil {
-        font-size: 1.5rem !important;
-        max-width: 900px;
-        margin: 0 auto;
-    }
-
-    .redes_sociais img {
-        width: 35% !important;
-    }
+  nav {
+    width: 90px;
+    left: 20px;
+  }
+  .menu {
+    gap: 40px;
+  }
+  main {
+    padding-left: 140px;
+  }
+  .logo {
+    width: 50%;
+    margin-top: -8%;
+    margin-left: 0;
+  }
+  .foto-perfil {
+    width: 35%;
+  }
+  .texto_perfil {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+  .icone-rede {
+    width: 35%;
+  }
 }
-
-@media (min-width: 1200px) {
-
-    nav {
-        position: static;
-        width: 100%;
-        height: auto;
-        margin-top: -30px;
-    }
-
-    .nav {
-        display: flex;
-        flex-direction: column;
-    }
-    .nav {
-        flex-direction: row;
-        justify-content: center;
-        gap: 40px;
-    }
-
-    .inicio,
-    .skills,
-    .projetos,
-    .contato {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    main {
-        padding-left: 0;
-    }
-
-    .redes_sociais {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .redes_sociais > div {
-        width: auto;
-        flex: 0 0 auto;
-        text-align: center !important;
-    }
-
-    .redes_sociais img {
-        width: 80px !important;
-    }
-}
+@media (min-width: 992px) {
+  nav {
+    position: static;
+    width: 100%;
+    margin-top: -15px;
+    margin-bottom: 80px;
+  }
+  .menu {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .menu-item {
+    width: auto;
+  }
+  .menu a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .menu a span {
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .menu img {
+    width: 55px;
+  }
+  main {
+    padding-left: 0;
+  }
+  .logo {
+    width: 35%;
+    margin-top: -5%;
+    margin-left: 0;
+  }
+  .foto-perfil {
+    width: 20%;
+  }
+  .texto_perfil {
+    max-width: 1000px;
+    font-size: 1.8rem;
+  }
+  .redes_sociais {
+    justify-content: center;
+    align-items: center;
+  }
+  .redes_sociais > div {
+    width: auto;
+    flex: 0 0 auto;
+    text-align: center;
+  }
+  .icone-rede {
+    width: 60px;
+  }
+}/*# sourceMappingURL=styles.css.map */
