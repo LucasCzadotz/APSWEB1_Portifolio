@@ -53,11 +53,11 @@ main {
   margin-left: 10%;
 }
 
-.foto-perfil {
+.foto_perfil {
   width: 50%;
 }
 
-.icone-rede {
+.icone_rede {
   width: 60%;
 }
 
@@ -77,14 +77,12 @@ main {
   border-top: 3px solid #0d6efd;
   border-radius: 8px;
   padding: 8px;
-  animation: fadeIn 0.5s ease both;
+  animation: fadeIn 0.5s ease;
 }
 
 .cards_projetos img {
   width: 100%;
   max-height: 160px;
-  -o-object-fit: contain;
-     object-fit: contain;
   display: block;
   border-radius: 4px;
 }
@@ -121,7 +119,7 @@ main {
     margin-top: -8%;
     margin-left: 0;
   }
-  .foto-perfil {
+  .foto_perfil {
     width: 35%;
   }
   .texto_perfil {
@@ -129,7 +127,7 @@ main {
     margin: 0 auto;
     font-size: 1.5rem;
   }
-  .icone-rede {
+  .icone_rede {
     width: 35%;
   }
   .cards_projetos {
@@ -149,7 +147,7 @@ main {
     align-items: center;
     gap: 100px;
   }
-  .menu-item {
+  .menu_item {
     width: auto;
   }
   .menu a {
@@ -173,7 +171,7 @@ main {
     margin-top: -5%;
     margin-left: 0;
   }
-  .foto-perfil {
+  .foto_perfil {
     width: 20%;
   }
   .texto_perfil {
@@ -186,10 +184,9 @@ main {
   }
   .redes_sociais > div {
     width: auto;
-    flex: 0 0 auto;
     text-align: center;
   }
-  .icone-rede {
+  .icone_rede {
     width: 60px;
   }
   .cards_projetos {
