@@ -3,16 +3,18 @@
     opacity: 0;
     transform: translateY(20px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 body {
-  background-color: white;
+  background-color: #f7f7f7;
   color: #212529;
+}
+
+header {
+  background-color: #f7f7f7;
 }
 
 nav {
@@ -20,6 +22,7 @@ nav {
   left: 10px;
   top: 14%;
   width: 70px;
+  background-color: #fdfdfd;
 }
 
 .menu {
@@ -31,10 +34,6 @@ nav {
 .menu a {
   text-decoration: none;
   color: #212529;
-}
-
-.menu a:hover {
-  color: #0b5ed7;
 }
 
 .menu a span {
@@ -75,8 +74,8 @@ main {
 }
 
 .cards_projetos article {
-  border: 1px solid #dee2e6;
-  border-top: 3px solid #0d6efd;
+  border: 4px solid #dee2e6;
+  border-top: 5px solid #0d6efd;
   border-radius: 8px;
   padding: 8px;
   animation: fadeIn 0.5s ease;
@@ -111,40 +110,32 @@ main {
     width: 90px;
     left: 20px;
   }
-
   .menu {
     gap: 40px;
   }
-
   main {
     padding-left: 140px;
   }
-
   .logo {
     width: 50%;
     margin-top: -8%;
     margin-left: 0;
   }
-
   .foto_perfil {
     width: 35%;
   }
-
   .texto_perfil {
     max-width: 900px;
     margin: 0 auto;
     font-size: 1.5rem;
   }
-
   .icone_rede {
     width: 35%;
   }
-
   .cards_projetos {
     grid-template-columns: 1fr 1fr;
   }
 }
-
 @media (min-width: 992px) {
   nav {
     position: static;
@@ -152,70 +143,55 @@ main {
     margin-top: -15px;
     margin-bottom: 80px;
   }
-
   .menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 100px;
   }
-
   .menu_item {
     width: auto;
   }
-
   .menu a {
     display: flex;
     align-items: center;
     gap: 10px;
   }
-
   .menu a span {
     display: inline;
     font-size: 1.1rem;
     font-weight: 500;
   }
-
   .menu img {
     width: 55px;
   }
-
   main {
     padding-left: 0;
   }
-
   .logo {
     width: 35%;
     margin-top: -5%;
     margin-left: 0;
   }
-
   .foto_perfil {
     width: 20%;
   }
-
   .texto_perfil {
     max-width: 1000px;
     font-size: 1.8rem;
   }
-
   .redes_sociais {
     justify-content: center;
     align-items: center;
   }
-
-  .redes_sociais>div {
+  .redes_sociais > div {
     width: auto;
     text-align: center;
   }
-
   .icone_rede {
     width: 60px;
   }
-
   .cards_projetos {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

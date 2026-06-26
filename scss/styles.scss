@@ -17,11 +17,15 @@ body {
     color: $cor-texto;
 }
 
+header{
+    background-color: $cor-fundo;
+}
 nav {
     position: fixed;
     left: 10px;
     top: 14%;
     width: 70px;
+    background-color: $cor-nav;
 }
 
 .menu {
@@ -33,10 +37,6 @@ nav {
 .menu a {
     text-decoration: none;
     color: $cor-texto;
-}
-
-.menu a:hover {
-    color: $cor-hover;
 }
 
 .menu a span {
@@ -77,8 +77,8 @@ main {
 }
 
 .cards_projetos article {
-    border: 1px solid #dee2e6;
-    border-top: 3px solid $cor-destaque;
+    border: 4px solid #dee2e6;
+    border-top: 5px solid $cor-destaque;
     border-radius: 8px;
     padding: 8px;
     animation: fadeIn 0.5s ease;
