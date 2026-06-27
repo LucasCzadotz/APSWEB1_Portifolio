@@ -7,7 +7,7 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
+} /*animacao dos projetos aparecendo e subindo um pouco*/
 body {
   background-color: #f7f7f7;
   color: #212529;
@@ -74,8 +74,7 @@ main {
 }
 
 .cards_projetos article {
-  border: 4px solid #dee2e6;
-  border-top: 5px solid #0d6efd;
+  border: 6px solid #000000;
   border-radius: 8px;
   padding: 8px;
   animation: fadeIn 0.5s ease;
